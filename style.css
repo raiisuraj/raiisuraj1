@@ -1,0 +1,163 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto/Roboto-Bold.ttf");
+  }
+  @font-face {
+  font-family: "Merienda";
+  src: url("Merienda/Merienda-Bold.ttf");
+  }
+    @font-face {
+  font-family: "Merienda";
+  src: url("Merienda/Merienda-Bold.ttf");
+  }
+
+p{
+    font-family: Merienda;
+}
+
+
+
+.card{
+			width: 32%;
+           box-shadow: 2px 4px 4px 10px rgba(0, 0, 0, 0.7);
+
+           display: inline-block;
+	border-radius: 6px 4px 4px 4px;
+	position: relative;
+		}
+			img{width: 100%;
+       border-radius: 6px 6px 6px 6px;
+			}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+.container{
+	width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/np.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+.navbar{
+	height: 12%;
+	display: flex;
+	align-items: center;
+   
+}
+.logo{
+	width: 70px;
+	cursor: pointer;
+}
+.menu-icon{
+	width: 30px;
+	cursor: pointer;
+	margin-left: 40px;
+
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0 0 10px green;
+    font-family: Merienda
+}
+.row{
+	display: flex;
+	height: 88%;
+	align-items: top;
+}
+.col{
+	flex-basis: 50%;
+	text-shadow: 0 0 10px orange;
+	text-align: center;
+}
+h1{
+	color: #b8edef;
+	font-size: 50px;
+	position: auto;
+	text-align: center;
+	
+}
+p{
+	color: white;
+	font-size: 20px;
+	line-height: 20px;
+}
+button{
+	width: 180px;
+	color: #000;
+	font-size: 12px;
+	padding: 12px 0;
+	background: #fff;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+}
+.card{
+	width: 200px;
+	height: 230px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin:10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+
+
+.card1{
+	background-image: url(images/pic-12.jpg);
+
+}
+.card2{
+	background-image: url(images/pic-13.jpg);
+	
+}
+.card3{
+	background-image: url(images/pic-14.jpg);
+	
+}
+.card4{
+	background-image: url(images/pic-15.jpg);
+	
+}
+.card:hover{
+	transform: translateY(-10px);
+}
+h3{
+	color: #fff;
+	text-shadow: 0 0 5px red;
+
+}
+.card p{
+	text-shadow: 0 0 15px #000;
+	text-size:8px;
+}
+
+
